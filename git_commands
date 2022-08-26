@@ -1,0 +1,12 @@
+git init
+git clone <url>
+git add <filename> or git add * or git add . or git add –all
+git remote add origin <url>
+git status
+git commit -m “commit description“
+git commit –amend "new commit description"
+git push <remote> <localBranch:<remoteBranch>
+git push origin main or git push origin –set-upstream main
+git log
+git pull
+git help
