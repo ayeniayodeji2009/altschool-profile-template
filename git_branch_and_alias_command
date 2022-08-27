@@ -1,0 +1,23 @@
+git branch -a  <- list all branch
+
+git branch <branch name>  <- create a new branch
+
+git checkout -b <branch name>  <- create a new branch and navigate to same branch
+
+git checkout main <- navigate to branch
+
+git branch -d <branch name>  <- delete branch
+
+git remote -v  <- list branch links on server side
+
+git remote show origin  <- list repository link on server side
+
+git push origin <branch name>  <- commit or push particular branch to the server side
+
+git push –set-upstream origin <branch name>
+
+git merge <branch name>  <- merge sub branch to main branch
+
+git config –global alias.st status   <- create a short cut property name "st" atached to the "alias" object and assign the git "status" function to it. to be used will be "git st" meaning git status
+
+git config –global alias.last ‘log -1 HEAD’ <- Does the same as above
